@@ -1,0 +1,187 @@
+#header{
+    width: 100%;
+}
+.navbar{
+    background-color: #020230;
+}
+.navbar-toggler .bars{
+    color: white;
+    font-size: 30px;
+    border: none;
+    outline: none;
+}
+.navbar .navbar-brand{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-nav{
+    display: inline;
+    justify-content: space-between;
+    margin-left: auto;
+    text-align: center;
+}
+.navbar-nav a{
+    color: white;
+    text-decoration: none;  
+    transition: 0.9s;
+}
+
+/* home section */
+#home{
+    background-color: #020230;
+    height: 100%;
+}
+.home-title{
+    padding-top:100px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.home-content{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+}
+.home-container .btn{
+    margin-top: 20px;
+    width: 200px;
+    height: 45px;
+}
+.home-container .btn-info:hover{
+    background-color: #020230;
+    color: rgb(76, 76, 229);
+}
+.home-container .btn-danger:hover{
+    background-color: #020230;
+    color:red;
+}
+/* services */
+#services{
+    margin-top: 100px;
+}
+#services .services-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.card{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card img{
+    text-align: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #0dcaf0;
+}
+.card:hover img{
+    background-color: #dc3545;;
+}
+.card a{
+    color: #0dcaf0;
+    background-color: white;
+}
+.card a:hover{
+    color: #dc3545;
+}
+/* About section */
+#about{
+    margin-top: 100px;
+}
+
+#about .btn{
+    margin-top: 20px;
+    width: 200px;
+    height: 45px;
+}
+#about .btn-danger:hover{
+    background-color: white;
+    color: #dc3545;
+}
+#about .row{
+    margin-top: 100px;
+}
+.row-2 .col-wrapper{
+    color: white;
+}
+/* Pricing */
+.pricing-title{
+    margin-top: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+#pricing .card{
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#pricing .card:hover,.btn-danger:hover{
+    background-color: #0dcaf0;
+}
+#pricing .card-body span{
+    font-size: 25px;
+}
+#pricing .card-body .card-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+#pricing .card-body .card-text{
+    font-size: 15px;
+}
+/* Contact */
+#contact{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.contact-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.form input{
+    margin-bottom: 10px;
+}
+/* footer section */
+#footer{
+    background-color: #020230;
+    height: 100%;
+    padding-bottom: 50px;
+}
+#footer h4{
+    top: 0;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+#footer .row{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#footer p{
+    color: white;
+    font-size: 18px;
+}
+#footer p i{
+    padding-right: 8px;
+    color: white;
+}
+#footer span img{
+    width: 40px;
+}
+#footer span img:hover{
+    transition: 0.3s;
+    transform: translateY(-10px);
+}
+
+.footer-container p a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.footer-container p a:hover{
+    color: #dc3545;
+}
